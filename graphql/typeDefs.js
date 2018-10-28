@@ -11,11 +11,7 @@ type User {
 input UserInput {
     login: String!
     homeFloor: Int
-}
-
-type UserRoom {
-    id: ID!
-    title: String!
+    avatarUrl: String!
 }
 
 type Room {
